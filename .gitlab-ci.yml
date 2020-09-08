@@ -2,7 +2,7 @@
 # Full project: https://gitlab.com/pages/plain-html
 pages:
   stage: deploy
-  image: node:latest
+  image: node:14
   script:
     - yarn install
     - mkdir .public
